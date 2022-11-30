@@ -16,7 +16,7 @@ export default function Menu () {
   return (
     <nav className={style.root}>
       <Link href="/">Главная</Link>
-      <Link href="/test-works">Тестовые задания</Link>
+      <Link href="/[all]/test-works">Тестовые задания</Link>
       <Link href="/programming">Программирование</Link>
       <Link href="/infrastructure">Деплой</Link>
       <Link href="/soft-skills">Софт-Скиллы</Link>
