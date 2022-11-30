@@ -15,12 +15,12 @@ interface ComposedComponent extends WithRouterProps {
 export default function Menu () {
   return (
     <nav className={style.root}>
-      <Link href="/">Главная</Link>
-      <Link href="/[[...all]]/test-works">Тестовые задания</Link>
-      <Link href="/programming">Программирование</Link>
-      <Link href="/infrastructure">Деплой</Link>
-      <Link href="/soft-skills">Софт-Скиллы</Link>
-      <Link href="/api/hello">API</Link>
+      <Link href="/personal-learn-path-copy/">Главная</Link>
+      <Link href="/personal-learn-path-copy/test-works">Тестовые задания</Link>
+      <Link href="/personal-learn-path-copy/programming">Программирование</Link>
+      <Link href="/personal-learn-path-copy/infrastructure">Деплой</Link>
+      <Link href="/personal-learn-path-copy/soft-skills">Софт-Скиллы</Link>
+      <Link href="/personal-learn-path-copy/api/hello">API</Link>
     </nav>
   )
 }
